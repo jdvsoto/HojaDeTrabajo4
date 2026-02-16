@@ -1,4 +1,4 @@
-package uvg.edu.gt.stack;
+package calculator.stack;
 
 public interface Stack<T> {
     void push(T item);

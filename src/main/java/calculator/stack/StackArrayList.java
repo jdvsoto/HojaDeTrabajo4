@@ -1,4 +1,4 @@
-package uvg.edu.gt.stack;
+package calculator.stack;
 
 import java.util.ArrayList;
 

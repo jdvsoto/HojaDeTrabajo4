@@ -1,6 +1,6 @@
-package uvg.edu.gt.stack;
+package calculator.stack;
 
-import uvg.edu.gt.list.ListADT;
+import calculator.list.ListADT;
 
 public class StackList<T> extends AbstractStack<T> {
 

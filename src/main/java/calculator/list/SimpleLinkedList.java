@@ -1,4 +1,4 @@
-package uvg.edu.gt.list;
+package calculator.list;
 
 public class SimpleLinkedList<T> extends AbstractList<T> {
 

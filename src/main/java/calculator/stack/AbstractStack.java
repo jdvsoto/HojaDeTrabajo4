@@ -1,4 +1,4 @@
-package uvg.edu.gt.stack;
+package calculator.stack;
 
 public abstract class AbstractStack<T> implements Stack<T> {
 

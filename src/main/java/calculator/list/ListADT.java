@@ -1,4 +1,4 @@
-package uvg.edu.gt.list;
+package calculator.list;
 
 public interface ListADT<T> {
     void addLast(T item);

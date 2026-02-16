@@ -1,4 +1,4 @@
-package uvg.edu.gt.list;
+package calculator.list;
 
 public abstract class AbstractList<T> implements ListADT<T> {
 

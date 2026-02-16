@@ -1,6 +1,6 @@
-package uvg.edu.gt.calculator;
+package calculator.calculator;
 
-import uvg.edu.gt.stack.Stack;
+import calculator.stack.Stack;
 
 public class Calculator {
 

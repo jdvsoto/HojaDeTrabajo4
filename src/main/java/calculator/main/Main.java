@@ -1,8 +1,8 @@
-package uvg.edu.gt.main;
+package calculator.main;
 
-import uvg.edu.gt.stack.*;
-import uvg.edu.gt.list.*;
-import uvg.edu.gt.calculator.Calculator;
+import calculator.stack.*;
+import calculator.list.*;
+import calculator.calculator.Calculator;
 
 import java.io.File;
 import java.util.Scanner;
