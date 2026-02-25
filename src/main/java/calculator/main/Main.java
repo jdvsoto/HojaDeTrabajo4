@@ -1,7 +1,6 @@
 package calculator.main;
 
 import calculator.stack.*;
-import calculator.list.*;
 import calculator.calculator.Calculator;
 
 import java.io.File;
@@ -20,26 +19,17 @@ public class Main {
 
         int option = input.nextInt();
 
-        Stack<String> stack = null;
+        int listOption = 0;
 
-        if (option == 1) {
-            stack = new StackArrayList<>();
-        } else if (option == 2) {
-            stack = new StackVector<>();
-        } else if (option == 3) {
-
+        if (option == 3) {
             System.out.println("Seleccione implementación de Lista:");
             System.out.println("1. Simplemente encadenada");
             System.out.println("2. Doblemente encadenada");
 
-            int listOption = input.nextInt();
-
-            if (listOption == 1) {
-                stack = new StackList<>(new SimpleLinkedList<>());
-            } else {
-                stack = new StackList<>(new DoublyLinkedList<>());
-            }
+            listOption = input.nextInt();
         }
+
+        Stack<String> stack = StackFactory.createStack(option, listOption);
 
         Scanner file = new Scanner(new File("datos.txt"));
         String expression = file.nextLine();
